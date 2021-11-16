@@ -4,10 +4,7 @@
 System consists of two different microservices(Dowlnload[DLS] and Concat[CS] services) with the following tasks.
 Multiple count of DLS downloade data from different sources and save to Storage, DLS sends messages about data details(id, path) to CS service using Kafka Queue. CS service gets data from storage and merge data according to Kafka Queue messages.
 
-Develper information:
-* Mekan Allaberdiyev
-* mekan.allaberdi@gmail.com
-
+![alt text](diagram.png)
 
 ## Description
 Project has two microservices:
